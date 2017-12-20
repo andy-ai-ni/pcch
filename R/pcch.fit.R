@@ -8,7 +8,7 @@
 #' @param full.size full cohort size. Required if \code{alpha} is not provided.
 #' @param no.pen.covar.position column positions of covariates that should not receive penalty. Default is NULL.
 #' @param lambda.range range of lambda values used to create solution path. Default is [0.001, 0.5].
-#' @param nlambda number of lambda values within \code{lambda.range}. Default is 100.
+#' @param nlambda number of lambda values within \code{lambda.range}. Default is 50.
 #' @param threshold convergence criterion. Default is 10^(-4).
 #' @param maxit maximum number of iterations when fitting the model. Default is 200.
 #' @description
@@ -33,7 +33,7 @@
 #' @references Ni, A., Cai, J., and Zeng, D. (2016) "Variable selection for case-cohort studies with failure time outcome". \emph{Biometrika} \strong{103}, 3, pp. 547-562.
 
 pcch.fit <-
-function(time, status, covar, sub.coh, alpha=NULL,	full.size=NULL, no.pen.covar.position=NULL, lambda.range=c(0.001, 0.5), nlambda=100,
+function(time, status, covar, sub.coh, alpha=NULL,	full.size=NULL, no.pen.covar.position=NULL, lambda.range=c(0.001, 0.5), nlambda=50,
                   threshold=10^(-4), maxit=200){
   
   if(lambda.range[1]<0 | lambda.range[2]<0){
