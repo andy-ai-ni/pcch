@@ -2,8 +2,7 @@ Package: pcch
 Title: Fit penalized Cox's proportional hazards model under a case-cohort design.
 Version: 1.0.0
 Authors@R: person("Andy", "Ni", email = "aini01@gmail.com", role = c("aut", "cre"))
-Description: Fit penalized Cox's proportional hazards model under a case-cohort design. Generate solution path for a given grid of tuning parameter values,
-and select the tuning parameter and the corresponding model using generalized cross-validation and BIC-type criterion.
+Description: Fit penalized Cox's proportional hazards model under a case-cohort design. Generate solution path for a given grid of tuning parameter values, and select the tuning parameter and the corresponding model using generalized cross-validation and BIC-type criterion.
 Depends: R (>= 3.3.2)
 License: GPL (>= 2)
 Encoding: UTF-8
