@@ -1,10 +1,11 @@
 Package: pcch
-Title: What the Package Does (one line, title case)
-Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Title: Fit penalized Cox's proportional hazards model under a case-cohort design.
+Version: 1.0.0
+Authors@R: person("Andy", "Ni", email = "aini01@gmail.com", role = c("aut", "cre"))
+Description: Fit penalized Cox's proportional hazards model under a case-cohort design. Generate solution path for a given grid of tuning parameter values,
+and select the tuning parameter and the corresponding model using generalized cross-validation and BIC-type criterion.
 Depends: R (>= 3.3.2)
-License: What license is it under?
+License: GPL (>= 2)
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
