@@ -1,2 +1,2 @@
 # pcch
-R pcch package for penalized regression under case-cohort design
+R pcch package for penalized Cox proportional hazards regression under case-cohort design.
