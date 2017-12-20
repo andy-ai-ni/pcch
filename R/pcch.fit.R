@@ -20,6 +20,7 @@
 #' @return An object of class \code{pcch.fit} containing solution path and fitted regression coefficients based on generalized cross-validation (GCV)
 #' and BIC-type tuning parameter selection criteria.
 #' @export
+#' @importFrom MASS ginv
 #' @examples
 #' Busselton.cch=na.omit(Busselton.full)
 #' 
