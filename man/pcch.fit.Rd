@@ -6,7 +6,7 @@
 \usage{
 pcch.fit(time, status, covar, sub.coh, alpha = NULL, full.size = NULL,
   no.pen.covar.position = NULL, lambda.range = c(0.001, 0.5),
-  nlambda = 100, threshold = 10^(-4), maxit = 200)
+  nlambda = 50, threshold = 10^(-4), maxit = 200)
 }
 \arguments{
 \item{time}{follow-up time.}
@@ -25,7 +25,7 @@ pcch.fit(time, status, covar, sub.coh, alpha = NULL, full.size = NULL,
 
 \item{lambda.range}{range of lambda values used to create solution path. Default is [0.001, 0.5].}
 
-\item{nlambda}{number of lambda values within \code{lambda.range}. Default is 100.}
+\item{nlambda}{number of lambda values within \code{lambda.range}. Default is 50.}
 
 \item{threshold}{convergence criterion. Default is 10^(-4).}
 
